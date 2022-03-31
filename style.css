@@ -1,0 +1,98 @@
+body {
+    background-color: #faf8f8;
+    overflow: hidden;
+}
+.wrapper1 {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.cell1 {
+    display: table-cell;
+    vertical-align: middle;
+}
+.item1 {
+    margin: auto;
+    padding: 6px;
+    width: 500px;
+    min-height: 300px;
+    background-color: #ececeb;
+}
+.item2 {
+    position: absolute;
+    width: 330px;
+    height: 330px;
+    padding: 5px;
+    right: 9px;
+    bottom: 9px;
+    margin: 9px;
+    background-color: #e8e8e6;
+}
+.wrapper3 {
+    display: flex;
+    flex-flow: row wrap;
+}
+.cell3 {
+    margin: 6px auto;
+    width: 200px;
+    height: 300px;
+    background-color: #e0e0e0;
+}
+.wrapper4 {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+    justify-content: center;
+}
+.div41 {
+    padding: 4px;
+}
+.div4 {
+    flex: 1;
+}
+.div4 input {
+    width: 100%;
+}
+/* 5 */
+.wrapper5 div {
+    height: 390px;
+    width: 30%;
+    margin: 6px;
+    background-image: url(KnifeEdgeTwoPiece.jpg);
+    background-color: #d4d4d1;
+}
+.img-1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.img-2 {
+    background-size: cover;
+}
+/* 6 */
+.wrapper6 {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    height: 100%;
+}
+.content6 {
+    width: 500px;
+    height: 100%;
+    background-color: #ececea;
+
+}
+.right6 {
+    flex: 1 1 auto;
+}
+.img6 {
+    height: 100%;
+    background-image: url(KnifeEdgeTwoPiece1.jpg);
+    background-repeat: no-repeat;
+}
+@media (max-width: 1200px) {
+    .img6 {
+        background-position: center left;
+    }
+}
